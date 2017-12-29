@@ -2,12 +2,11 @@ class Box2d < Formula
     desc "2D physics engine for games"
     homepage "http://www.box2d.org/"
     url "https://github.com/erincatto/Box2D/archive/v2.3.1.tar.gz"
-    sha256 "2c61505f03ef403b54cf0e510d83d6f567e37882ad79b5b2d486acbc7d5eedea"
+    sha256 "75d62738b13d2836cd56647581b6e574d4005a6e077ddefa5d727d445d649752"
     head "https://github.com/erincatto/Box2D.git"
 
     bottle do
       cellar :any
-      sha256 "75d62738b13d2836cd56647581b6e574d4005a6e077ddefa5d727d445d649752" => :sierra
       sha256 "967e9f17c6133f253be1be4f845899160af7c8cc8d072e41b176d9c636911a19" => :el_capitan
       sha256 "1559be0d79e66e8074a051f36db5bbf21a9d556013803cce7e04184bd28028a9" => :yosemite
       sha256 "40effd7d4952d37d15e7b34da4b9c207956b1d79bdd856f9f03307ecf52a5b3f" => :mavericks
